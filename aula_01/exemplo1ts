@@ -1,0 +1,31 @@
+namespace exemplo2 {
+    //VAR, LET, CONST 
+    //let numero: number;
+    //numero = 5; 
+
+    //let resultado: number;
+    //resultado = numero + numero;
+    //console.log("A soma entre " + numero + " com " + numero + "é igual a: " + resultado);
+    //resultado = numero - 4;
+    //console.log(`A subtração entre ${numero} com 4 é igual a: ${resultado}`);
+    //resultado = numero * 4;
+    //console.log(`A multiplicação entre ${numero} com 4 é igual a: ${resultado}`);
+    //resultado = numero / 4;
+    //npx ts-node exemplo2.ts
+    //console.log(`A divisão entre ${numero} com 4 é igual a: ${resultado}`);
+
+let numero1: Number;
+let numero2: number;
+let numero3: number;
+let numero4: number;
+let resultado: number;
+
+numero1 = 2
+numero2 = 3
+numero3 = 4
+numero4 = 5
+resultado = numero1 + numero2 + numero3 + numero4;
+console.log(`A soma dos 4 numeros é ${resultado}`);
+
+
+}
